@@ -13,4 +13,4 @@ tags:
 ```ruby
 Blogs posts will update soon....Until then stay with me!!
 ```
-![Alt Text](https://tenor.com/buZYx.gif)
+<img src="https://media.giphy.com/media/jKXAUzNarqzlJv8Fub/giphy.gif" width="1000" height="1000" />
