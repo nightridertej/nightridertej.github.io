@@ -27,7 +27,7 @@ markdown: kramdown
 
 repository: nightridertej/nightridertej.github.io
 #remote_theme: mmistakes/minimal-mistakes
-theme: minimal-mistakes-jekyll 
+remote_theme: minimal-mistakes-jekyll 
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
