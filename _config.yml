@@ -65,16 +65,20 @@ author:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://blog.tejkumar.in"
+      url: "https://tejkumar.in"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/CyberT3j"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/tej.0402"
+      url: "https://github.com/tej0402"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/iamtejkumar"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/iamtejkumar"
+    
 
 footer:
   links:
@@ -83,7 +87,7 @@ footer:
       url: "https://twitter.com/CyberT3j"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/tej.0402"
+      url: "https://github.com/tej0402"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/iamtejkumar"
