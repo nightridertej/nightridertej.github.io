@@ -9,7 +9,7 @@ tags:
   - cybersecurity
   - posts
 ---
-## Here there are some sites with free challenges to practice different skills. Share in case it could be useful for someone. :notebook: :green_book: :orange_book:
+## Here there are some sites with free challenges to practice different skills. Share in case it could be useful for someone. :notebook::green_book::orange_book:
 
 **CTFs**
 - https://CTFtime.org

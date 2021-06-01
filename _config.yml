@@ -15,7 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Home
 email: tej.0402@protonmail.com
-description: >-  # this means to ignore newlines until "baseurl:" 
+description: >  # this means to ignore newlines until "baseurl:" 
+  One and only cybersecurity blog where you can get all cybersecurity related stuff at one place. Come and learn to grow together.
 twitter_username: CyberT3j
 github_username: tej.0402
 minimal_mistakes_skin: dark
