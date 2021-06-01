@@ -2,7 +2,7 @@
 title: "Some Useful Resources"
 date: 2021-06-01T08:00:30+05:30
 categories:
-  - usefulresources
+  - Resources
 tags:
   - blog
   - usefulresources

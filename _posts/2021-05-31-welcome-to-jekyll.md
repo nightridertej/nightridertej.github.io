@@ -2,7 +2,7 @@
 title: "Blog Posts - Going Live Soon!!"
 date: 2021-05-31T22:00:30+05:30
 categories:
-  - blog
+  - Welcome
 tags:
   - blog
   - update
