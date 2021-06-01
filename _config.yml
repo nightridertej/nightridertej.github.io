@@ -16,7 +16,6 @@
 title: Home
 email: tej.0402@protonmail.com
 description: >-  # this means to ignore newlines until "baseurl:" 
-Cyber Security Blog
 twitter_username: CyberT3j
 github_username: tej.0402
 minimal_mistakes_skin: dark
@@ -65,7 +64,7 @@ author:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://tejkumar.in"
+      url: "https://about.tejkumar.in"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/CyberT3j"
