@@ -24,7 +24,7 @@ I, found vulnerable endpoint is ```\ForgotPassword```. Here the developers made 
 ![alt text](/assets/images/blogpostimages/exposingmobilenumber.jpg "Exposing Mobile Number")
 
 By using OSINT techniques, verified that mobile number is belongs to that person.
-![alt text](/assets/images/blogpostimages/osintmobilenumber.jpg "OSINT Mobile Number")
+![alt text](/assets/images/blogpostimages/osintmobilenumber.JPG "OSINT Mobile Number")
 
 From here I got his/her gmail address and got more information about that customer.
 ![alt text](/assets/images/blogpostimages/osintgmail.jpg "OSINT Gmail")
