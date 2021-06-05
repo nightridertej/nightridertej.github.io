@@ -35,6 +35,6 @@ Again I came back to vulnerable endpoint to test it on other customers data. I t
 
 These are the fields that vulnerable app has ```CUST_SMARTCARD, CUST_TYPE, CUST_FNAME, CUST_ADDRESS,CUST_CITY,CUST_STATE,CUST_ZIP,CUST_MAIL,CUST_RMN(Mobile Numbers), CUST_EXP, CUST_BAL, CUST_PLAN, CUST_PLAN_AMOUNT, CUST_PLAN_MONTH, SMC,Package_ID,Package_Name ```
 
-![alt text](/assets/images/blogpostimages/customerdetails.jpg "Customer Details")
+![alt text](/assets/images/blogpostimages/customerdetails.JPG "Customer Details")
 
 I have reported this vulnerability ethically to that concerned department more than 4 months ago. I didn't get any reply from them, seems like they didn't care about customer's privacy data about to breach.
