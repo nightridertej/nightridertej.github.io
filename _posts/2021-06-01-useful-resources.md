@@ -9,6 +9,8 @@ tags:
   - cybersecurity
   - posts
 ---
+<script data-ad-client="ca-pub-7343720216522642" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 ## Here there are some sites with free challenges to practice different skills. Share in case it could be useful for someone. :notebook::green_book::orange_book:
 
 **CTFs**
@@ -40,6 +42,7 @@ tags:
 - https://tryhackme.com/
 - https://w3challs.com/
 - http://gracker.org/
+<script data-ad-client="ca-pub-7343720216522642" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 **Powershell**
 - https://www.underthewire.tech
@@ -73,3 +76,4 @@ tags:
 - https://application.security/free-application-security-training
 
 Feel free to comment if I forgot something.
+<script data-ad-client="ca-pub-7343720216522642" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
