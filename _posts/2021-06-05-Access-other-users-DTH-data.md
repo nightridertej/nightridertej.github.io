@@ -10,7 +10,6 @@ tags:
   - cybersecurity
   - posts
 ---
-<script data-ad-client="ca-pub-7343720216522642" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 DTH vulnerable app has a field to enter SMART CARD NUMBER to recharge without login into customer's account. This functionality lures me to do test on various customers data. 
 ## But How?!
 I have started testing with OTP functionality on vulnerable web app. There is restriction on rate limiting to validate OTP. Then I decided to look each and every functionality. At first, I tried to see ```view page source```. This time I found that front end developers made some mistake by commenting other customers data.
@@ -29,7 +28,7 @@ By using OSINT techniques, verified that mobile number is belongs to that person
 From here I got his/her gmail address and got more information about that customer.
 ![alt text](/assets/images/blogpostimages/osintgmail.jpg "OSINT Gmail")
 
-<script data-ad-client="ca-pub-7343720216522642" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 Again I came back to vulnerable endpoint to test it on other customers data. I tried to enumerate with other customers smart card numbers. 
 
 ![alt text](/assets/images/blogpostimages/enumerate.jpg "Customer Details")
@@ -39,4 +38,3 @@ These are the fields that vulnerable app has ```CUST_SMARTCARD, CUST_TYPE, CUST_
 ![alt text](/assets/images/blogpostimages/customerdetails.JPG "Customer Details")
 
 I have reported this vulnerability ethically to that concerned department more than 4 months ago. I didn't get any reply from them, seems like they didn't care about customer's privacy data about to breach.
-<script data-ad-client="ca-pub-7343720216522642" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

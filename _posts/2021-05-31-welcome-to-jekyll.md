@@ -9,7 +9,7 @@ tags:
   - cybersecurity
   - posts
 ---
-<script data-ad-client="ca-pub-7343720216522642" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 ```ruby
 Blogs posts will update soon....Until then stay with me!!
 ```
