@@ -120,37 +120,6 @@ a:hover {
 .site-title {
   font-size: 1.5rem;
   font-weight: 800;
-  background: var(--accent-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  filter: drop-shadow(0 0 5px rgba(0, 242, 255, 0.3));
-}
-
-/* Navigation Links */
-.masthead__menu-item a {
-  color: var(--text-color-main) !important;
-  font-weight: 500;
-  font-size: 0.95rem;
-  padding: 0.5rem 1.2rem;
-  border-radius: 50px;
-  margin: 0 0.2rem;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  border: 1px solid transparent;
-}
-
-.masthead__menu-item a:hover {
-  background: rgba(0, 242, 255, 0.1);
-  border-color: rgba(0, 242, 255, 0.5);
-  color: #fff !important;
-  box-shadow: 0 0 15px rgba(0, 242, 255, 0.4);
-  transform: translateY(-1px);
-  text-decoration: none;
-}
-
-/* Buttons */
-.btn {
-  background: var(--accent-gradient) !important;
-  border: none;
   color: #0f0c29 !important;
   /* Dark text on bright button */
   border-radius: 50px;
