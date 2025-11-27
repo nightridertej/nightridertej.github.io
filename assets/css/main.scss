@@ -1,8 +1,4 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
-
-@charset "utf-8";
+--- # Only the main Sass file needs front matter (the dashes are enough) --- @charset "utf-8";
 
 @import "minimal-mistakes";
 
@@ -28,7 +24,10 @@ body {
 }
 
 /* Glassmorphism for containers */
-.page__content, .sidebar, .archive, .author__urls-wrapper {
+.page__content,
+.sidebar,
+.archive,
+.author__urls-wrapper {
   background: var(--glass-bg) !important;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -42,13 +41,19 @@ body {
 
 /* Sidebar specific adjustments */
 .sidebar {
-  background: rgba(0, 0, 0, 0.2) !important; /* Slightly darker for sidebar */
+  background: rgba(0, 0, 0, 0.2) !important;
+  /* Slightly darker for sidebar */
 }
 
 /* Typography Enhancements */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--text-color-main) !important;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 a {
@@ -79,8 +84,15 @@ a:hover {
 
 /* Animations */
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .page__content {
@@ -93,16 +105,16 @@ a:hover {
 }
 
 ::-webkit-scrollbar-track {
-  background: #1a1c2c; 
+  background: #1a1c2c;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #4a192c; 
+  background: #4a192c;
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #ff007a; 
+  background: #ff007a;
 }
 
 /* Footer */
@@ -112,5 +124,53 @@ a:hover {
 }
 
 .page__footer-follow .social-icons .fa-fw {
-    color: var(--text-color-main);
+  color: var(--text-color-main);
+}
+
+/* Header / Masthead */
+.masthead {
+  background: rgba(20, 20, 30, 0.8) !important;
+  /* Semi-transparent dark bg */
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-bottom: 1px solid var(--glass-border);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  animation: slideDown 0.8s ease-out;
+}
+
+.masthead__inner-wrap {
+  background: transparent !important;
+}
+
+.masthead__menu-item {
+  position: relative;
+}
+
+.masthead__menu-item a {
+  color: var(--text-color-main) !important;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.masthead__menu-item a:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--accent-color) !important;
+  box-shadow: 0 0 15px var(--accent-color);
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
