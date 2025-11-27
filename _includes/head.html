@@ -24,20 +24,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script>
-    .greedy - nav.site - title {
-    padding - right: 3em;
-  }
-    .greedy - nav button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100 %;
-  }
-  </style >
-< ![endif]-->
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
 
-  {% if site.head_scripts %}
-  {% for script in site.head_scripts %}
-  <script src="{{ script | relative_url }}"></script>
+<script data-ad-client="ca-pub-7343720216522642" async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- For all browsers -->
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+<link rel="shortcut icon" type="image/jpg" href="favicon.jpg">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+{% if site.head_scripts %}
+{% for script in site.head_scripts %}
+<script src="{{ script | relative_url }}"></script>
 {% endfor %}
 {% endif %}
