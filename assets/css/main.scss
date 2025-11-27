@@ -1,0 +1,116 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes";
+
+/* ==========================================================================
+   Custom Fancy Styles
+   ========================================================================== */
+
+:root {
+  --fancy-bg-gradient: linear-gradient(135deg, #1a1c2c 0%, #4a192c 100%);
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  --accent-color: #ff007a;
+  --text-color-main: #ffffff;
+  --text-color-secondary: #e0e0e0;
+}
+
+body {
+  background: var(--fancy-bg-gradient);
+  background-attachment: fixed;
+  color: var(--text-color-main);
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Glassmorphism for containers */
+.page__content, .sidebar, .archive, .author__urls-wrapper {
+  background: var(--glass-bg) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  box-shadow: var(--glass-shadow);
+  padding: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+/* Sidebar specific adjustments */
+.sidebar {
+  background: rgba(0, 0, 0, 0.2) !important; /* Slightly darker for sidebar */
+}
+
+/* Typography Enhancements */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-color-main) !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #fff;
+  text-shadow: 0 0 10px var(--accent-color);
+}
+
+/* Button Styling */
+.btn {
+  background: linear-gradient(45deg, #ff007a, #7a00ff);
+  border: none;
+  color: white !important;
+  border-radius: 30px;
+  box-shadow: 0 4px 15px rgba(255, 0, 122, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 0, 122, 0.6);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.page__content {
+  animation: fadeIn 0.8s ease-out;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1c2c; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4a192c; 
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff007a; 
+}
+
+/* Footer */
+.page__footer {
+  background: transparent !important;
+  color: var(--text-color-secondary);
+}
+
+.page__footer-follow .social-icons .fa-fw {
+    color: var(--text-color-main);
+}
