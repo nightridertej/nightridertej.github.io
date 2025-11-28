@@ -105,13 +105,91 @@ a:hover {
     padding: 0.5em 0;
     /* Sleeker padding */
     animation: slideDown 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+
+    /* STRETCH TO FIT SCREEN */
+    width: 100% !important;
+    max-width: 100% !important;
 }
 
-backdrop-filter: blur(5px);
-color: var(--text-color-muted);
-margin-top: 3em;
-padding: 2em 0;
-border-top: 1px solid rgba(255, 255, 255, 0.05);
+.masthead__inner-wrap {
+    background: transparent !important;
+    padding: 0.5em 2em;
+    /* Added side padding */
+
+    /* STRETCH TO FIT SCREEN */
+    width: 100% !important;
+    max-width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Site Title */
+.site-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #00f2ff !important;
+    /* Cyan fallback */
+    background: linear-gradient(90deg, #00f2ff 0%, #00c3ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 8px rgba(0, 242, 255, 0.6));
+}
+
+/* Navigation Links */
+.masthead__menu-item a {
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 0.6rem 1.4rem;
+    border-radius: 50px;
+    margin: 0 0.2rem;
+    transition: all 0.3s ease;
+
+    /* Glassy Pill Effect matching image */
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.masthead__menu-item a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: #00f2ff;
+    color: #fff !important;
+    box-shadow: 0 0 15px rgba(0, 242, 255, 0.4);
+    transform: translateY(-1px);
+    text-decoration: none;
+}
+
+/* Buttons */
+.btn {
+    background: linear-gradient(90deg, #00f2ff 0%, #00c3ff 100%) !important;
+    border: none;
+    color: #0f0c29 !important;
+    /* Dark text on bright button */
+    border-radius: 50px;
+    padding: 0.8em 2em;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 15px rgba(0, 242, 255, 0.4);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(0, 242, 255, 0.6);
+    color: #fff !important;
+}
+
+/* Footer */
+.page__footer {
+    background: rgba(0, 0, 0, 0.3) !important;
+    backdrop-filter: blur(5px);
+    color: var(--text-color-muted);
+    margin-top: 3em;
+    padding: 2em 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .page__footer-follow .social-icons .fa-fw {
