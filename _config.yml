@@ -61,7 +61,7 @@ plugins:
 author:
   name   : "Tej Kumar"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Cyber Security Blog"
+
   links:
 
     - label: "X"
