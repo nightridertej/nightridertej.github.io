@@ -35,27 +35,7 @@
       }}</button>
     <ul class="author__urls social-icons">
       {% if author.location %}
-      <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-        <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">{{ author.location
-          }}</span>
-      </li>
-      {% endif %}
-
-      {% if author.links %}
-      {% for link in author.links %}
-      {% if link.label and link.url %}
-      <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i <i class="fas fa-fw fa-envelope-square"
-            aria-hidden="true"></i><span class="label">{{
-            site.data.ui-text[site.locale].email_label | default: "Email" }}</span>
-        </a>
-      </li>
-      {% endif %}
-
-      {% if author.keybase %}
-      <li>
-        <a href="https://keybase.io/{{ author.keybase }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-          <i class="fas fa-fw fa-key" aria-hidden="true"></i><span class="label">Keybase</span>
-        </a>
+      </a>
       </li>
       {% endif %}
 
