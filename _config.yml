@@ -63,9 +63,7 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Cyber Security Blog"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://www.tejkumar.in"
+
     - label: "X"
       icon: "fab fa-fw fa-x-twitter"
       url: "https://x.com/CyberT3j"
