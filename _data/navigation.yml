@@ -2,12 +2,12 @@ main:
   - title: "Home"
     url: /
   - title: "About"
-    url: https://tejkumar.in/About
+    url: https://tejkumar.in/about/
   - title: "Blog"
     url: /blog/
   - title: "Certifications"
-    url: https://tejkumar.in/Certifications
+    url: https://tejkumar.in/certifications/
   - title: "Projects"
-    url: https://tejkumar.in/Projects
+    url: https://tejkumar.in/projects/
   - title: "Contact"
-    url: https://tejkumar.in/Contact
+    url: https://tejkumar.in/contact/

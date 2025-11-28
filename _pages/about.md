@@ -13,9 +13,9 @@ Recently, I am trying to get more skilled in binary analysis/exploitation and re
 
 <div class="about-buttons">
   <a href="/blog/" class="btn">Blog</a>
-  <a href="https://tejkumar.in/Contact" class="btn">Contact</a>
-  <a href="https://tejkumar.in/Certifications" class="btn">Certifications</a>
-  <a href="https://tejkumar.in/Projects" class="btn">Projects</a>
+  <a href="https://tejkumar.in/contact/" class="btn">Contact</a>
+  <a href="https://tejkumar.in/certifications/" class="btn">Certifications</a>
+  <a href="https://tejkumar.in/projects/" class="btn">Projects</a>
 </div>
 
 <h2 style="color: #c471ed; margin-top: 2em;">Education</h2>
