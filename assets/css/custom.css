@@ -25,6 +25,19 @@ body {
     /* Prevent horizontal scroll due to 100vw */
 }
 
+/* Particle Canvas */
+#particle-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* Behind everything */
+    pointer-events: none;
+    /* Allow clicks to pass through */
+}
+
 /* Ensure theme containers don't block the background */
 .initial-content,
 #main,
