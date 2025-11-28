@@ -1,9 +1,13 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  - title: "Home"
+    url: /
   - title: "About"
-    url: https://www.tejkumar.in/aboutme/
+    url: /about/
+  - title: "Blog"
+    url: /blog/
+  - title: "Certifications"
+    url: /certifications/
+  - title: "Projects"
+    url: /projects/
+  - title: "Contact"
+    url: /contact/

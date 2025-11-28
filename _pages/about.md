@@ -3,6 +3,59 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+I worked as a DevOps Engineer and Penetration Tester in a product based company.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+Hands-on experience on AWS, GCP, Azure, Digital Ocean, IBM Cloud and Oracle Cloud. I use a considerable part of my spare time to participate in bug bounties and perform freelance security research.
+
+Moreover, I am a self-learner and passionate about Cybersecurity.
+
+Recently, I am trying to get more skilled in binary analysis/exploitation and reverse engineering.
+
+<div class="about-buttons">
+  <a href="/blog/" class="btn">Blog</a>
+  <a href="/contact/" class="btn">Contact</a>
+  <a href="/certifications/" class="btn">Certifications</a>
+  <a href="/projects/" class="btn">Projects</a>
+</div>
+
+<h2 style="color: #c471ed; margin-top: 2em;">Education</h2>
+
+<div class="education-section">
+  <div class="education-item">
+    <span class="education-year">2018</span>
+    <h3 class="education-degree">Bachelor of Technology - Computer Science and Engineering</h3>
+    <p class="education-school">Jawaharlal Nehru Technological University, Anantapur</p>
+  </div>
+</div>
+
+<h2 style="color: #c471ed;">Skills</h2>
+
+<div class="skills-section">
+  <div class="skill-item">
+    <span class="skill-name">Information Security</span>
+    <div class="skill-bar">
+      <div class="skill-progress" style="width: 90%;"></div>
+    </div>
+  </div>
+  
+  <div class="skill-item">
+    <span class="skill-name">Network Security</span>
+    <div class="skill-bar">
+      <div class="skill-progress" style="width: 85%;"></div>
+    </div>
+  </div>
+  
+  <div class="skill-item">
+    <span class="skill-name">Web Security</span>
+    <div class="skill-bar">
+      <div class="skill-progress" style="width: 80%;"></div>
+    </div>
+  </div>
+  
+  <div class="skill-item">
+    <span class="skill-name">Digital Forensics</span>
+    <div class="skill-bar">
+      <div class="skill-progress" style="width: 75%;"></div>
+    </div>
+  </div>
+</div>
