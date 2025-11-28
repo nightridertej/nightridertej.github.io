@@ -202,30 +202,6 @@ a:hover {
 }
 
 /* ==========================================================================
-   Sidebar & Grid Styling
-   ========================================================================== */
-
-/* Sticky & Fancy Sidebar */
-.sidebar {
-    position: sticky;
-    top: 100px;
-    /* Below header */
-    height: calc(100vh - 120px);
-    overflow-y: auto;
-    background: rgba(255, 255, 255, 0.03) !important;
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 15px;
-    backdrop-filter: blur(5px);
-    color: var(--text-color-muted);
-    margin-top: 3em;
-    padding: 2em 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
-}
-
-.page__footer-follow .social-icons .fa-fw {
-    color: var(--text-color-main);
-    transition: color 0.3s ease;
 }
 
 .page__footer-follow .social-icons .fa-fw:hover {
@@ -419,22 +395,6 @@ a:hover {
 }
 
 .archive__item-title a:hover {
-    text-shadow: 0 0 10px rgba(196, 113, 237, 0.5);
-    transform: translateX(5px);
-    display: inline-block;
-}
-
-/* Archive Item Excerpt */
-.archive__item-excerpt {
-    color: var(--text-color-muted) !important;
-    font-size: 0.95rem;
-    line-height: 1.6;
-}
-
-/* Page Meta (Date, Read Time) */
-.page__meta {
-    color: #c471ed !important;
-    /* Purple accent */
     font-size: 0.85rem;
     font-weight: 500;
     text-transform: uppercase;
