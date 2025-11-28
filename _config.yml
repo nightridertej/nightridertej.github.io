@@ -82,9 +82,9 @@ author:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/CyberT3j"
+    - label: "X"
+      icon: "fab fa-fw fa-x-twitter"
+      url: "https://x.com/CyberT3j"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/tej0402"

@@ -216,51 +216,6 @@ a:hover {
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 15px;
-    padding: 1.5em;
-    scrollbar-width: thin;
-    scrollbar-color: var(--accent-color) transparent;
-}
-
-/* Grid Items (Blog Tiles) */
-.grid__item .archive__item {
-    background: rgba(255, 255, 255, 0.03) !important;
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 15px;
-    padding: 1.5em;
-    height: 100%;
-    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
-    display: flex;
-    flex-direction: column;
-}
-
-.grid__item .archive__item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(0, 242, 255, 0.15);
-    border-color: var(--accent-color);
-    background: rgba(255, 255, 255, 0.05) !important;
-}
-
-.archive__item-teaser {
-    border-radius: 10px;
-    overflow: hidden;
-    margin-bottom: 1em;
-}
-
-.archive__item-teaser img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    transition: transform 0.5s ease;
-}
-
-.grid__item .archive__item:hover .archive__item-teaser img {
-    transform: scale(1.05);
-}
-
-/* Footer */
-.page__footer {
-    background: rgba(0, 0, 0, 0.3) !important;
     backdrop-filter: blur(5px);
     color: var(--text-color-muted);
     margin-top: 3em;
