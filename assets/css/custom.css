@@ -38,11 +38,11 @@ body {
 }
 
 .masthead {
-    background: rgba(60, 20, 80, 0.4) !important;
-    /* Transparent purple tint */
+    background: rgba(15, 12, 41, 0.7) !important;
+    /* Darker glass to match body */
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     position: fixed;
     /* Fixed to ensure full width overlay */
     top: 0;
@@ -53,6 +53,7 @@ body {
     padding: 1em 2em;
     /* Adjusted padding */
     animation: slideDown 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    font-family: 'Outfit', sans-serif;
 }
 
 .masthead__inner-wrap {
@@ -392,7 +393,8 @@ body {
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 15px;
-    padding: 1.5em;
+    padding: 1.2em;
+    /* Reduced padding */
 
     /* Force Square Aspect Ratio */
     aspect-ratio: 1 / 1;
@@ -415,10 +417,10 @@ body {
 .archive__item-teaser {
     border-radius: 10px;
     overflow: hidden;
-    margin-bottom: 1em;
+    margin-bottom: 0.8em;
     flex-shrink: 0;
-    height: 50%;
-    /* Take up half the card height */
+    height: 40%;
+    /* Reduced image height to give text more room */
 }
 
 .archive__item-teaser img {
@@ -435,7 +437,7 @@ body {
 /* Archive Item Excerpt */
 .archive__item-excerpt {
     color: var(--text-color-muted) !important;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     line-height: 1.5;
     flex-grow: 1;
     overflow: hidden;
